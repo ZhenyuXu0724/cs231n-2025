@@ -1,0 +1,60 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Environments and local credentials
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local generated files
+/tmp/
+/output/
+# Lecture PDFs and note drafts stay local until explicitly supplied for upload
+/CS231n_2025_*.pdf
+/notes/
+logs/
+runs/
+wandb/
+checkpoints/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+
+# Downloaded datasets; retain dataset helper scripts
+**/datasets/cifar-10-batches-py/
+**/datasets/cifar-10-python.tar.gz
+**/datasets/coco_captioning/
+**/datasets/train2014/
+**/datasets/val2014/
+**/datasets/annotations/
+**/datasets/*.npz
+**/datasets/*.npy
+**/datasets/*.pkl
+**/datasets/*.zip
+**/datasets/*.tar.gz
+
+# Assignment submission bundles
+*_code_submission.zip
+*_inline_submission.pdf
